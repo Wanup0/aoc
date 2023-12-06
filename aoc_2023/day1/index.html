@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>Day1</title>
+        <link rel="shortcut icon" href="#" />
+        <link rel="stylesheet" href="styles.css" />
+    </head>
+
+    <body>
+        <section class="section">
+            <div id="results" class="console"></div>
+        </section>
+    </body>
+    <script>
+        document.addEventListener("DOMContentLoaded", (event) => {
+            import("/day1/day1.js")
+                .then((Day1) => {
+                    Day1.SolvePart1();
+                    Day1.SolvePart2();
+                })
+                .catch((err) => console.log(err));
+        });
+    </script>
+</html>

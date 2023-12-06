@@ -1,0 +1,9 @@
+.console {
+    margin: 10px 10px;
+    padding: 10px 10px;
+    background-color: lightblue;
+    border: 2px dotted black;
+    min-height: 100px;
+    max-height: 200px;
+    overflow: auto;
+}
